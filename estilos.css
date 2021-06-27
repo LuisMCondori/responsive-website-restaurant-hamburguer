@@ -114,7 +114,7 @@ header .logo p{
         HERO
 ----------------------*/
 .hero {
-    background-image: url(/img/hero.jpg);
+    background-image: url(img/hero.jpg);
     min-height: 50rem;
     background-repeat: no-repeat;
     background-position: center center;
