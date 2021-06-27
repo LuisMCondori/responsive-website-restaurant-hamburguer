@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamburguesa</title>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,900" rel="stylesheet">    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link rel="stylesheet" href="/estilos.css">
+</head>
+<body>
+    <!----------------------------------- HEADER ----------------------------------->    
+        <header class="contenedor">
+
+            <div class="logo">
+                <img src="/img/logo.png">
+                <p>Burger</p>
+            </div>
+
+            <div class="carrito-compras">
+                <img src="/img/cart.png" class="img-carrito">
+                <div class="contenido oculto" id="carrito">
+                    
+                    <table id="contenedorCarrito">
+                        <thead>
+                            <tr>
+                                <th>Imagen</th>
+                                <th>Nombre</th>
+                                <th>Precio</th>
+                                <th>Cantidad</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><img src="/img/platillo1.jpg" width="50"></td>
+                                <td>Hamburguesa</td>
+                                <td>$15</td>
+                                <td>1</td>
+                                <td><a href="#" class="borrar-curso"> X </a></td>                                
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <a href="#" id="vaciar-carrito" class="boton">Vaciar Carrito</a>
+
+                </div>
+            </div>
+
+        </header>
+    
+    <!----------------------------------- HEADER ----------------------------------->
+
+    <!----------------------------------- HERO ----------------------------------->
+    <div class="hero">
+        <div class="contenido-hero contenedor">
+            <h2>Prueba una <br>Hamburguesa</h2>
+            <p>Todas las hamburguesas a S/10.</p>
+            <form action="#" id="busqueda" class="formulario">
+                <input type="text" class="" placeholder=" ¿Que te gustaria pedir?" id="buscador">
+                <input type="submit" id="submit-buscador" class="submit-buscador">
+            </form>
+        </div>
+    </div>
+    <!----------------------------------- HERO ----------------------------------->
+
+    <div class="barra">
+        <div class="iconos contenedor">
+            <div class="icono">
+                <i class="fas fa-hamburger"></i>
+                <p>100 Hamburguesas Diferentes <br>
+                Prueba nuevos sabores</p>
+            </div>
+            <div class="icono">
+                <i class="fas fa-chess-king"></i>
+                <p>Chef Expertos <br>
+                Prueba nuevas combinaciones</p>
+            </div>
+            <div class="icono">
+                <i class="fas fa-beer"></i>
+                <p>Bebida Ilimitadas <br>
+                Prueba tu bebida favorita</p>
+            </div>
+        </div>
+    </div>
+
+    <!----------------------------------- PRODUCTOS ----------------------------------->
+    <h1 class="encabezado centrado" >Hamburguesas en Linea</h1>
+
+    <div class="productos contenedor" id="lista-productos">
+
+        <div class="producto" >
+            <img src="/img/platillo1.jpg">
+            <div class="info-producto">
+                <h4>Hamburguesa Sencilla</h4>
+                <p>Bebida Ilimitada</p>
+                <img src="/img/estrellas.png">
+                <div class="precio">
+                    <p class="regular">$200</p>
+                    <p class="oferta">$15</p>
+                </div>
+                <a href="#" class="boton" data-id="1">Agregar al Carrito</a>
+            </div>
+        </div>
+
+        <div class="producto">
+            <img src="/img/platillo2.jpg">
+            <div class="info-producto">
+                <h4>Hamburguesa con papas</h4>
+                <p>Bebida Ilimitada</p>
+                <img src="/img/estrellas.png">
+                <div class="precio">
+                    <p class="regular">$200</p>
+                    <p class="oferta">$15</p>
+                </div>
+                <a href="#" class="boton" data-id="2">Agregar al Carrito</a>
+            </div>
+        </div>
+
+        <div class="producto">
+            <img src="/img/platillo3.jpg">
+            <div class="info-producto">
+                <h4>Hamburguesa Ilimitada</h4>
+                <p>Sin Bebida</p>
+                <img src="/img/estrellas.png">
+                <div class="precio">
+                    <p class="regular">$200</p>
+                    <p class="oferta">$15</p>
+                </div>
+                <a href="#" class="boton" data-id="3">Agregar al Carrito</a>
+            </div>
+        </div>
+
+        <div class="producto">
+            <img src="/img/platillo1.jpg">
+            <div class="info-producto">
+                <h4>Hamburguesa Combo 1</h4>
+                <p>Pure de Manzana</p>
+                <img src="/img/estrellas.png">
+                <div class="precio">
+                    <p class="regular">$200</p>
+                    <p class="oferta">$15</p>
+                </div>
+                <a href="#" class="boton" data-id="4">Agregar al Carrito</a>
+            </div>
+        </div>
+
+        <div class="producto">
+            <img src="/img/platillo4.jpg">
+            <div class="info-producto">
+                <h4>Hamburguesa Combo 2</h4>
+                <p>Ensalada</p>
+                <img src="/img/estrellas.png">
+                <div class="precio">
+                    <p class="regular">$200</p>
+                    <p class="oferta">$15</p>
+                </div>
+                <a href="#" class="boton" data-id="5">Agregar al Carrito</a>
+            </div>
+        </div>
+
+        <div class="producto">
+            <img src="/img/platillo5.jpg">
+            <div class="info-producto">
+                <h4>Hamburguesa Combo 3</h4>
+                <p>Papas Fritas</p>
+                <img src="/img/estrellas.png">
+                <div class="precio">
+                    <p class="regular">$200</p>
+                    <p class="oferta">$15</p>
+                </div>
+                <a href="#" class="boton" data-id="6">Agregar al Carrito</a>
+            </div>
+        </div>
+    </div>
+    <!----------------------------------- PRODUCTOS ----------------------------------->
+
+
+
+
+    <script src="/app.js"></script>
+</body>
+</html>
